@@ -21,4 +21,8 @@ of training. Understanding NC sheds light on why certain OOD methods succeed and
 a theoretical framework for designing better detectors.
 
 # Setup:
-`python`
+```bash
+python -m venv .venv # create virtual environment
+.venv\Scripts\activate # or source -m .venv/bin/activate on Linux to activate the virtual environment
+pip install -r requirements.txt
+```
